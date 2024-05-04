@@ -1,0 +1,39 @@
+
+
+
+
+.hero {
+    background-image: url('/hero/hero.webp');
+    background-size: cover;
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    h1 {
+        margin-bottom: 0;
+        color: $white;
+    }
+    h3 {
+        margin: 8px 0;
+        color: $white;
+    }
+    p {
+        color: $white;
+    }
+    .btn {
+        margin-top: 60px;
+    }
+    // .sun {
+    //     height: 250px;
+    //     width: 250px;
+    //     border-radius: 50%;
+    //     background-color: #fe9801;
+    //     position: absolute;
+    //     bottom: 30%;
+    //     left: 10%;
+    //     box-shadow: 1px 0px 50px yellow;
+    // }
+}

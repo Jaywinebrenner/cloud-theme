@@ -1,0 +1,14 @@
+
+
+
+.footer {
+        margin: 100px 0;
+        .footer-wrapper {
+                display: flex;
+                justify-content: space-between;
+                a {
+                        display: block;
+                        margin: 1em 0;
+                }
+        }
+}

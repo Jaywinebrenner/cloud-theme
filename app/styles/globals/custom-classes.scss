@@ -1,0 +1,83 @@
+
+html {
+    min-height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: "smooth";
+  }
+
+
+button, .button, .btn {
+    background-color: $orange;
+    color: $white;
+    padding: 9px 23px;
+    border: 2px solid $orange;
+    border-radius: 5px;;
+    display: inline-block;
+    &:hover {
+      background-color: $white;
+      color: $orange;
+    }
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+  
+    &--small {
+      max-width: 800px;
+      margin: auto;
+      width: calc(100vw - 15%);
+    }
+  }
+  
+  .bold {
+    font-weight: 600;
+  }
+  
+  .tight-container {
+    max-width: 800px;
+    margin: auto;
+    width: 90%;
+  
+    &--small {
+      max-width: 800px;
+      margin: auto;
+      width: calc(100vw - 15%);
+    }
+  }
+  
+  p.minor {
+    font-size: 16px;
+  }
+  
+  
+  .marker-underline {
+    display: inline;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+  
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: -1rem;
+      right: -1rem;
+      z-index: -1;
+      width: calc(100% + 2rem);
+      height: 3rem;
+      background-image: url('/assets/hero/marker-wipe.png');
+      background-size: 100% 75%;
+      background-repeat: no-repeat;
+      background-color: transparent;
+  
+      @media(max-width: $bp-small) {
+        bottom: -1.2rem;
+      }
+    }
+  }

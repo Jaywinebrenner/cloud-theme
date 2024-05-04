@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400..500&display=swap");
+@import "variables";
+// @import "typography";
+
+
+body {
+    margin: 0;
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font1;
+  font-weight: 300;
+  color: $darkblue;
+}
+
+h1 {
+  font-family: $font2;
+font-size: 5rem;
+
+  @media (max-width: $bp-small) {
+
+  }
+  @media (min-width: 1400px) {
+
+
+  }
+
+}
+h2 {
+  font-size: 2.5rem;
+  @media (max-width: $bp-small) {
+
+  }
+}
+h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  @media (max-width: $bp-small) {
+
+  }
+}
+h4 {
+
+}
+h5 {
+
+}
+
+h6,
+h6 .h6 {
+
+  @media (max-width: $bp-small) {
+
+  }
+}
+
+p,
+i {
+
+
+  @media (max-width: $bp-small) {
+
+  }
+}
+
+p {
+  font-size: 18px;
+
+  &.major {
+
+
+    @media (max-width: $bp-small) {
+
+    }
+  }
+
+  &.minor {
+
+    @media(min-width: 800px) and (max-width: 1200px){
+
+    }
+
+    @media (max-width: $bp-small) {
+
+    }
+  }
+
+  &.italic, i {
+    font-style: italic;
+  }
+}
+
+strong,
+b {
+  font-weight: $bold;
+}
+
+button,
+a {
+  
+}
+
+a {
+  color: $black;
+  text-decoration: none;
+  transition: .3s;
+  &:hover {
+    // opacity: .6;
+  }
+}
+a:not(.button):visited {
+
+}
+
+li {
+
+}
+
+li {
+  @media (max-width: $bp-small) {
+
+  }
+}
+
+
+ul  {
+  list-style-type: none;
+  color: $black;
+  li {
+
+  }
+}
+
+ol li {
+}
+
+
+hr {
+  border: 0;
+  border-top: 1px solid #182b3e;
+  opacity: 0.25;
+}

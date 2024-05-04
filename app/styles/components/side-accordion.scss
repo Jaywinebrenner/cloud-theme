@@ -1,0 +1,60 @@
+
+
+.side-accordion {
+    margin-bottom: 100px;
+    height: 70vh;
+    .top {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 64px;
+    }
+    &__main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .nav {
+            display: flex;
+            // align-items: center;
+            padding-right: 43px;
+        }
+        .side-accordion-buttons {
+            .side-accordion-button {
+                position: relative;
+                font-size: 20px;
+                padding: 21px 34px;
+                background-color: $darkblue;
+                margin: 24px 0;
+                cursor: pointer;
+                transition: .3s;
+                padding-right: 100px;
+                overflow: hidden; 
+                color: $white;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    right: 25px;
+                    top: calc(50% - 6px);
+                    width: 12px;
+                    height: 12px;
+                    transform: rotate(45deg);
+                    transition: .3s;
+                    border: 2px solid #fff;
+                    border-bottom: 0;
+                    border-left: 0;
+                }
+            }
+            .side-accordion-button.active {
+                width: 110%;
+                background-color: $orange;
+                transition: width 0.3s ease; 
+                color: white;
+            }
+        }
+        .content {
+            padding-left: 24px;
+        }
+        .card-content {
+            display: none;
+        }
+    }
+}

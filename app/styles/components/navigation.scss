@@ -1,0 +1,41 @@
+
+
+
+
+
+.navigation {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    a {
+        color: $white;
+        margin-left: 16px;
+        &:hover {
+            opacity: .6;
+        }
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo-wrapper {
+
+        }
+        .links-wrapper{
+            display: flex;
+            a {
+                cursor: pointer;
+            }
+
+        }
+    }
+    img {
+        width: 100px;
+    }
+}
+.privacy-page {
+    background-color: rgb(92, 146, 92);
+}
+
+
+
