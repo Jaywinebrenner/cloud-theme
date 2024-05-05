@@ -4,15 +4,15 @@ const InfoCards = () => {
 
     const cardsData = [
         {
-            title: "SET-UP & TRAINING",
+            title: "CONSULTING",
             icon: '/info-cards/icon1.png',
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            content: "Whether you've been around the digital block and know the ins-and-outs of launching a website or you are brand new to the world of websites, we can help you choose the best path for your needs.",
+            button: true
         },
         {
-            title: "MONTHLY MAINTENANCE",
+            title: "DESIGN & BUILD",
             icon: '/info-cards/icon2.png',
-            content: "Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Diam in arcu cursus euismod. Ut eu sem integer vitae justo eget magna. Volutpat maecenas volutpat blandit aliquam etiam erat. A erat nam at lectus urna duis. Sit amet justo donec enim diam vulputate ut pharetra sit. Nunc mattis enim ut tellus elementum sagittis vitae. Adipiscing commodo elit at imperdiet. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Ut eu sem integer vitae justo eget magna. Enim neque volutpat ac tincidunt. Vestibulum mattis ullamcorper velit sed.",
-            button: true
+            content: "We have years of experience building responsive, performant and beautiful websites. It is something we love to do.",
         },
         {
             title: "PAYROLL",
@@ -46,7 +46,7 @@ const InfoCards = () => {
 
             <div class="title-wrapper">
                 <h2>What We Do</h2>
-                <p>Necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus.</p>
+                <p>In today's digital age, having an online presence is crucial for any business to reach a wider audience. We can help you do just that!</p>
             </div>
             <i class="fa fa-camera"></i>
 

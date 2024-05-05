@@ -69,7 +69,7 @@ const SideAccordion = () => {
         <section className="side-accordion">
             <div className="container">
                 <div className="top">
-                    <h2>Our Services</h2>
+                    <h2>Pricing</h2>
                     <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
                 </div>
                 <div className="side-accordion__main">

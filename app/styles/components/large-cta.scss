@@ -2,8 +2,7 @@
 
 
 
-.hero {
-    background-image: url('/hero/hero.webp');
+.large-cta {
     background-size: cover;
     background-position: center; 
     height: 100vh; 
@@ -12,9 +11,6 @@
     justify-content: center;
     text-align: center;
     position: relative;
-    .content-wrapper {
-        transform: translatey(-60px);
-    }
     h1 {
         margin-bottom: 0;
         color: $white;
@@ -29,14 +25,5 @@
     .btn {
         margin-top: 60px;
     }
-    .sun {
-        height: 250px;
-        width: 250px;
-        border-radius: 50%;
-        background-color: #fe9801;
-        position: absolute;
-        bottom: -13%;
-        left: 10%;
-        // box-shadow: 1px 0px 50px yellow;
-    }
+
 }

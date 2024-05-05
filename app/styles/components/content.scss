@@ -1,10 +1,15 @@
 
 
 
-.content {
+.content-component {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    z-index: 99999;
+    position: relative;
     .content-wrapper {
         text-align: center;
-        margin: 100px 20%;
+        padding: 0 10%;
     }
     .btn {
         margin-top: 30px;

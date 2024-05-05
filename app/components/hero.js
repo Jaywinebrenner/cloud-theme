@@ -1,15 +1,28 @@
-import React from 'react';
+"use client"
+import React, { useEffect } from 'react';
 
-const Hero = ({ h1, h3, background, button}) => {
+const Hero = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const sun = document.querySelector('.sun');
+      const scrollPosition = window.pageYOffset;
+      sun.style.transform = `translateY(-${scrollPosition * 0.5}px)`; // Adjusted for upward movement
+    };
 
-  console.log("button", button)
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className='hero' style={{ backgroundImage: `url(${background})` }}>
+    <div className='hero' style={{ backgroundImage: `url(/hero/hero.webp)` }}>
       <div className='content-wrapper'>
-        <h1>{h1}</h1>
-        <h3>{h3}</h3>
-        {button && <a className='btn' href="">Learn More</a>}
+        <h1>Cumulus Web Design</h1>
+        <h3>Affordable Custom Websites for Small Businesses</h3>
       </div>
+      <div className='sun'></div>
     </div>
   );
 };
