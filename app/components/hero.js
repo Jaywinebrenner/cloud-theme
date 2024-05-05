@@ -20,7 +20,7 @@ const Hero = () => {
     <div className='hero' style={{ backgroundImage: `url(/hero/hero.webp)` }}>
       <div className='content-wrapper'>
         <h1>Cumulus Web Design</h1>
-        <h3>Affordable Custom Websites for Small Businesses</h3>
+        <h3>Affordable Custom Websites for Small Businesses & Beyond</h3>
       </div>
       <div className='sun'></div>
     </div>
