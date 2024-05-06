@@ -46,7 +46,7 @@ const InfoCards = () => {
 
             <div class="title-wrapper">
                 <h2>What We Do</h2>
-                <p>In today&apos;'s digital age, having an online presence is crucial for any business to reach a wider audience. We can help you do just that!</p>
+                <p>In today's digital age, having an online presence is crucial for any business to reach a wider audience. We can help you do just that!</p>
             </div>
             <i class="fa fa-camera"></i>
 
