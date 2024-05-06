@@ -76,7 +76,7 @@ const SideAccordion = () => {
             <div className="container">
                 <div className="top">
                     <h2>Pricing</h2>
-                    <p>This is the tricky part. The range is anywhere from $300+. Yea, not that helpful! In order to accurately price a website, I’d need to know the specifics of your needs. </p>
+                    <p>This is the tricky part. The range is anywhere from $300+. Yea, not that helpful! In order to accurately price a website, we’d need to know the specifics of your need which we can suss out on once we know the scope. </p>
                     <div className='pricing-points-wrapper'>
                         <div className='left'>
                             <ul>
