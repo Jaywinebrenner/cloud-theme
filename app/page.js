@@ -19,9 +19,9 @@ export default function Home() {
       <Navigation />
       <Hero/>
       <Content />
+      <Cta />
       <ThreeCard />
       {/* <InfoCards /> */}
-      <Cta />
       <TwoColumn />
       <SideAccordion />
       <LargeCta/>

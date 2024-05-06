@@ -130,10 +130,11 @@ li {
 
 
 ul  {
-  list-style-type: none;
+  // list-style-type: none;
   color: $black;
-  li {
 
+  li {
+    margin: 5px 0;
   }
 }
 

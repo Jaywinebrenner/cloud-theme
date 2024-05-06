@@ -44,8 +44,19 @@ const TwoColumn = () => {
                     <img src="/two-column/efficiency.png"/>
                 </div>
                 <div className='text-wrapper'>
-                    <h2>Effeciency</h2>
+                    <h2>Collaborate on Style</h2>
                     <p>Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. Fringilla phasellus faucibus scelerisque eleifend donec. Amet massa vitae tortor condimentum lacinia quis vel. </p>
+                </div>
+            </div>
+
+            <div className='section reverse'>
+                <div className='text-wrapper'>
+
+                    <h2>Deploy Your Website</h2>
+                    <p>Urna condimentum mattis pellentesque id nibh tortor. Curabitur gravida arcu ac tortor dignissim convallis aenean. Turpis nunc eget lorem dolor sed. Amet facilisis magna etiam tempor orci eu lobortis elementum</p>
+                </div>
+                <div className='image-wrapper'>
+                    <img src="/two-column/reliability.png"/>
                 </div>
             </div>
 
