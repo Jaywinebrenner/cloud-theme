@@ -19,11 +19,11 @@ export default function Home() {
       <Navigation />
       <Hero/>
       <Content />
-      <InfoCards />
-      <SideAccordion />
-      <Cta />
       <ThreeCard />
+      {/* <InfoCards /> */}
+      <Cta />
       <TwoColumn />
+      <SideAccordion />
       <LargeCta/>
       <Footer/>
     </main>

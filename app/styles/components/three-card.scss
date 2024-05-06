@@ -52,6 +52,14 @@
             text-align: center;
             border-bottom-left-radius: 2px;
             border-bottom-right-radius: 2px;
+            .subtitle {
+                p {
+                    padding: 30px 20px;
+                }
+            }
+            img {
+                padding-top: 30px;
+            }
         }
     }
     

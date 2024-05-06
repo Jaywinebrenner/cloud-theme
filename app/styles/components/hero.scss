@@ -15,6 +15,32 @@
     .content-wrapper {
         transform: translatey(-60px);
     }
+    .content-wrapper {
+        opacity: 0; 
+        transition: opacity 1s linear;
+    }
+    
+    .fade-in {
+        opacity: 1; 
+    }
+    
+
+    @keyframes moveCloudLeft {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-50%);
+        }
+      }
+      
+      .single-cloud-wrapper {
+        position: absolute;
+        top: 18%;
+        right: -1%;
+        animation: moveCloudLeft 20s linear infinite; /* Adjust duration and timing function as needed */
+      }
+      
     h1 {
         margin-bottom: 0;
         color: $white;

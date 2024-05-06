@@ -6,7 +6,7 @@ const Navigation = () => {
     <div class="navigation__top container">
         <div class="logo-wrapper">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                <img src="/navigation/cumulus-logo-white.png" alt="Logo" />
+                <img src="/navigation/cumulus-logo.png" alt="Logo" />
             </a>
         </div>
         <div className='links-wrapper'>

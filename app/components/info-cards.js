@@ -6,7 +6,7 @@ const InfoCards = () => {
         {
             title: "CONSULTING",
             icon: '/info-cards/icon1.png',
-            content: "Whether you&apos;ve been around the digital block and know the ins-and-outs of launching a website or you are brand new to the world of websites, we can help you choose the best path for your needs.",
+            content: "Whether you have been around the digital block and know the ins-and-outs of launching a website or you are brand new to the world of websites, we can help you choose the best path for your needs.",
             button: true
           },
           {
