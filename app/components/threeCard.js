@@ -30,7 +30,8 @@ const ThreeCard = () => {
             <div className="container">
                 <div className='title-content-wrapper'>
                     <h2>What We Do</h2>
-                    <p>In today&apos;'s digital age, having an online presence is crucial for any business to reach a wider audience. We can help you do just that!</p>
+                    <p>In today's digital age, having an online presence is crucial for any business to reach a wider audience. We can help you do just that!</p>
+
                 </div>
                 <div className="three-card__wrapper">
                     {cardsData && cardsData.map((card, i) => (
