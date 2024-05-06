@@ -1,18 +1,25 @@
+
 import React from 'react'
 
-const Navigation = () => {
+const Navigation = ({logoColor}) => {
   return (
     <section class="navigation">
     <div class="navigation__top container">
-        <div class="logo-wrapper">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+        {logoColor === 'white' ? (
+            <a href="/" class="logo-wrapper">
+                <img src="/navigation/cumulus-logo-white.png" alt="Logo" />
+            </a>
+            ) : (
+            <a href="/" class="logo-wrapper">
                 <img src="/navigation/cumulus-logo.png" alt="Logo" />
             </a>
-        </div>
+            )}
+
+    
         <div className='links-wrapper'>
-            <a src="/about">About</a>
-            <a src="/team">Team</a>
-            <a src="/contact">Contact</a>
+            <a href="/about">About</a>
+            <a href="/team">Team</a>
+            <a href="/contact">Contact</a>
         </div>
     </div>
 </section>

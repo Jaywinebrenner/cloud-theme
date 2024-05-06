@@ -4,8 +4,8 @@ import "./styles/app.scss"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Cloud Template",
-  description: "NextJs Template for Small Business",
+  title: "Cumulus Web Design",
+  description: "Affordable Custom Websites for Small Businesses & Beyond",
 };
 
 export default function RootLayout({ children }) {
