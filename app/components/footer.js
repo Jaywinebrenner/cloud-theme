@@ -6,16 +6,15 @@ const Footer = () => {
         <div className='container'>
           <div className='footer-wrapper'>
             <div className='left'>
-                <div className='logo-wrapper'>
-                  <img src="/navigation/cumulus-logo.png" alt="Logo" />
-
+                <div>
+                  <h3>Cumulus Web Design</h3>
+                  <a>Privacy Policy</a>
+                  <a>Contact</a>
                 </div>
-
-              <div className='info-wrapper'>
-              <h3>Cumulus Web Design</h3>
-                <a>Privacy Policy</a>
-                <a>Contact</a>
-              </div>
+            </div>
+            <div className='middle'>
+              <img src="/navigation/cumulus-logo.png" alt="Logo" />
+        
             </div>
             <div className='right'>
                 <p>Jay Winebrenner</p>

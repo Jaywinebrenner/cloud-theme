@@ -3,7 +3,8 @@
 
 .footer {
         margin: 100px 0;
-        .footer-wrapper {
+        .footer-wrapper {    
+                align-items: center;
                 display: flex;
                 justify-content: space-between;
                 a {
@@ -17,10 +18,12 @@
                                 flex-direction: column;
                                 align-items: left;
                         }
-                        img {
-                                width: 80px;
-                                margin-right: 24px;
-                        }
+         
+                }
+                .middle {
+                       img {
+                        width: 200px;
+                       } 
                 }
         }
 }
