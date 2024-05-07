@@ -7,6 +7,9 @@
                 align-items: center;
                 display: flex;
                 justify-content: space-between;
+                @media(max-width: 800px){
+                        display: block;
+                    }
                 a {
                         display: block;
                         margin: 1em 0;

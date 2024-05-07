@@ -13,9 +13,23 @@
         align-items: center;
         gap: 100px;
         margin-bottom: 100px;
+        @media(max-width: 800px){
+            display: block;
+        }
         .image-wrapper {
             flex: 1;
-            img {
+            position: relative;
+            .window-frame {
+
+            }   
+            .background {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                transform: translateX(-50%);
+                background-color: $darkblue;
+            }
+                     img {
                 max-width: 100%;
                 height: auto;
             }
@@ -30,6 +44,92 @@
             }
         }
     }
+
+//   NEW
+    .window {
+        width: 500px;
+        height: 300px;
+        border: 4px solid $darkblue;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .icon-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+
+    .icon {
+        width: 100px;
+        height: auto;
+        filter: brightness(0) invert(1);
+    }
+    .cloud-container {
+        position: relative;
+        img {
+            width: 150px;
+            position: absolute;
+            left: -20px;
+            z-index: 0;
+            animation-duration: 30s; /* Duration of the animation */
+            animation-timing-function: linear; /* Linear timing function */
+            animation-iteration-count: infinite;
+            animation-name: moveRight;
+        }
+        
+    }
+
+    @keyframes moveRight {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(200%);
+        }
+    }
+    
+    @keyframes moveLeft {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-200%);
+        }
+    }
+    
+
+    .section.reverse {
+        .cloud-container {
+            position: relative;
+            img {
+                width: 150px;
+                position: absolute;
+                right: -20px;
+                left: unset;
+                z-index: 0;
+                animation-duration: 30s; /* Duration of the animation */
+                animation-timing-function: linear; /* Linear timing function */
+                animation-iteration-count: infinite;
+                animation-name: moveLeft;
+            }
+        }
+    }
+
+    .window::before {
+        content: '';
+        position: absolute;
+        top: 4px; 
+        left: 4px; 
+        right: 4px; 
+        bottom: 4px; 
+        background-color: $darkblue;
+        z-index: -1; 
+    }
+
     a {
         margin-top: 20px;
     }

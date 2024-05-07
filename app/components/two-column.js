@@ -14,9 +14,16 @@ const TwoColumn = () => {
             </div>
 
             <div className='section'>
-                <div className='image-wrapper'>
+                {/* <div className='image-wrapper'>
                     <img src="/two-column/get-in-touch.webp"/>
-
+                </div> */}
+                <div className='window'>
+                    <div className='icon-wrapper'>
+                        <img className='icon' src="/two-column/icons/get-in-touch.png"/>
+                    </div>
+                    <div className='cloud-container'>
+                        <img className='cloud' src="/two-column/single-cloud.webp"/>
+                    </div>
                 </div>
                 <div className='text-wrapper'>
                     <h2>Get in touch!</h2>
@@ -34,17 +41,34 @@ const TwoColumn = () => {
                     <h2>Decide What is right for your Website</h2>
                     <p>Urna condimentum mattis pellentesque id nibh tortor. Curabitur gravida arcu ac tortor dignissim convallis aenean. Turpis nunc eget lorem dolor sed. Amet facilisis magna etiam tempor orci eu lobortis elementum</p>
                 </div>
-                <div className='image-wrapper'>
+                {/* <div className='image-wrapper'>
                     <img src="/two-column/decide.webp"/>
+                </div> */}
+                <div className='window'>
+                    <div className='icon-wrapper'>
+                        <img className='icon' src="/two-column/icons/decide.png"/>
+                    </div>
+                    <div className='cloud-container'>
+                        <img className='cloud' src="/two-column/single-cloud.webp"/>
+                    </div>
                 </div>
             </div>
 
             <div className='section'>
-                <div className='image-wrapper'>
+                {/* <div className='image-wrapper'>
                     <img src="/two-column/collaborate.webp"/>
+                </div> */}
+'                <div className='window'>
+                    <div className='icon-wrapper'>
+                        <img className='icon' src="/two-column/icons/determine-a-style.png"/>
+                    </div>
+                    <div className='cloud-container'>
+                        <img className='cloud' src="/two-column/single-cloud.webp"/>
+                    </div>
                 </div>
+          '
                 <div className='text-wrapper'>
-                    <h2>Collaborate on Style</h2>
+                    <h2>Determine a style</h2>
                     <p>Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. Fringilla phasellus faucibus scelerisque eleifend donec. Amet massa vitae tortor condimentum lacinia quis vel. </p>
                 </div>
             </div>
@@ -55,12 +79,29 @@ const TwoColumn = () => {
                     <h2>Deploy Your Website</h2>
                     <p>Urna condimentum mattis pellentesque id nibh tortor. Curabitur gravida arcu ac tortor dignissim convallis aenean. Turpis nunc eget lorem dolor sed. Amet facilisis magna etiam tempor orci eu lobortis elementum</p>
                 </div>
-                <div className='image-wrapper'>
-                    <img src="/two-column/deploy.webp"/>
+                {/* <div className='image-wrapper'>
+                    <img className='window-frame' src="/two-column/window-frame.png"/>
+                    <div className='background'></div>
+                    <div className="icon-container">
+                        <img className='icon' src="/two-column/icons/consulting.png"/>
+                    </div>
+                    <div className='cloud-container'>
+                        <img className='cloud' src="/two-column/single-cloud.webp"/>
+                    </div>
+                </div> */}
+                <div className='window'>
+                    <div className='icon-wrapper'>
+                        <img className='icon' src="/two-column/icons/deploy.png"/>
+                    </div>
+                    <div className='cloud-container'>
+                        <img className='cloud' src="/two-column/single-cloud.webp"/>
+                    </div>
                 </div>
+          
+
             </div>
 
-
+  
         </div>
     </div>
   )

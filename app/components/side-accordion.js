@@ -1,13 +1,24 @@
 "use client"
 import React, { useEffect } from 'react';
 
+
+
+
+
+
+
+
+
 const SideAccordion = () => {
     const cards = [
         {
             title: "BASIC WEBSITE",
             content: [
                 "If your needs do not require frequent updates we would build your site (with NextJs if you’re curious!) and host it for free. A site that does not require a “back end” which enables updates via a CMS is called a “static” site. We would host your site with Vercel, a popular cloud platform for hosting static sites. ",
-                "If you require simple copy or image updates, get in touch and each update would be $50. If you required further enhancements or pages, we'd have to discuss the specifics to determine the cost. But rest assured, we'd be fair and affordable. "
+                "If you require simple copy or image updates, get in touch and each update would be $50. If you required further enhancements or pages, we'd have to discuss the specifics to determine the cost. But rest assured, we'd be fair and affordable. ",
+                "A simple static splash page is about $300 with basic design requirements. ",
+                "A basic 3 - 5 page website is generally around $1200. ",
+                "Again, pricing is tough stuff, and we can give you a more accurate quote after chatting. "
             ]
         },
         {
@@ -18,7 +29,7 @@ const SideAccordion = () => {
             ]
         },
         {
-            title: "WEBSITE WITH ADVANCED FEATURES",
+            title: "ADVANCED WEBSITE",
             content: [
                 "Nunc scelerisque viverra mauris in aliquam sem. Odio tempor orci dapibus ultrices in iaculis nunc. At risus viverra adipiscing at in tellus integer. Et tortor consequat id porta nibh venenatis. Quis auctor elit sed vulputate mi sit amet. Eu feugiat pretium nibh ipsum consequat nisl. Feugiat nibh sed pulvinar proin gravida. Volutpat blandit aliquam etiam erat velit scelerisque in dictum. Sagittis purus sit amet volutpat consequat mauris nunc congue. Accumsan sit amet nulla facilisi morbi. Mattis aliquam faucibus purus in massa tempor nec feugiat.",
                 "Purus gravida quis blandit turpis cursus in hac habitasse. Pulvinar sapien et ligula ullamcorper malesuada proin. Porta lorem mollis aliquam ut porttitor leo a diam sollicitudin. Mollis aliquam ut porttitor leo a diam. Id aliquet lectus proin nibh nisl condimentum id venenatis. Vel orci porta non pulvinar neque laoreet suspendisse interdum. Bibendum enim facilisis gravida neque. Congue quisque egestas diam in arcu cursus. Posuere morbi leo urna molestie. Dignissim convallis aenean et tortor at risus viverra. Vulputate dignissim suspendisse in est. Tortor condimentum lacinia quis vel. Pharetra diam sit amet nisl suscipit adipiscing. Vestibulum morbi blandit cursus risus at ultrices mi tempus."
@@ -72,7 +83,8 @@ const SideAccordion = () => {
     }, []);
 
     return (
-        <section className="side-accordion">
+        <>
+        <section className="side-accordion desktop">
             <div className="container">
                 <div className="top">
                     <h2>Pricing</h2>
@@ -120,6 +132,28 @@ const SideAccordion = () => {
                 </div>
             </div>
         </section>
+
+        <section className="side-accordion mobi">
+            <div className="container">
+                <div className="top">
+                    <h2>Pricing</h2>
+                    <p>This is the tricky part. The range is anywhere from $300+. Yea, not that helpful! In order to accurately price a website, we’d need to know the specifics of your need which we can suss out on once we know the scope. </p>
+                </div>
+                <div className='pricing-points-mobi-wrapper'>
+                    {cards.map((card, i) => (
+                        <div key={`card-mobi-${i}`} className='card-mobi'>
+                            <h3>{card.title}</h3>
+                            <div className='content-wrapper-mobi'>
+                                {card.content.map((paragraph, index) => (
+                                    <p key={`paragraph-${index}`}>{paragraph}</p>
+                                ))}
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+        </>
     );
 };
 

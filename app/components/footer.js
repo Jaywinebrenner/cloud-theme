@@ -7,7 +7,6 @@ const Footer = () => {
           <div className='footer-wrapper'>
             <div className='left'>
                 <div>
-                  <h3>Cumulus Web Design</h3>
                   <a>Privacy Policy</a>
                   <a>Contact</a>
                 </div>
@@ -17,7 +16,7 @@ const Footer = () => {
         
             </div>
             <div className='right'>
-                <p>Jay Winebrenner</p>
+                <p>Cumulus Web Design</p>
                 <p>503.347-9890</p>
                 <p>jaywinebrenner@gmail.com</p>
             </div>

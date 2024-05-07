@@ -71,3 +71,22 @@
         }
     }
 }
+
+.side-accordion.desktop {
+  
+    @media(max-width:800px){
+        display: none;
+        background-color: red;
+    }
+}
+.side-accordion.mobi {
+    @media(min-width:800px){
+        display: none;
+    }
+    .card-mobi {
+        .contnent-wrapper-mobi {
+        }
+    }
+    .card-mobi {
+        margin-bottom: 50px;    }
+}

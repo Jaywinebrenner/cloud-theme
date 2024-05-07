@@ -15,7 +15,7 @@ const ThreeCard = () => {
         },
         {
             title: "MAINTENANCE",
-            icon: '/info-cards/icon3.png',
+            icon: '/info-cards/maintenence.png',
             content: [
                 "We provide ongoing support and maintenance to ensure your site remains secure, up-to-date, and performing at its best. Whether you need minor updates or major enhancements, our team is here to help you every step of the way."
             ]

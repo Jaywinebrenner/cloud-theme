@@ -12,6 +12,11 @@
     justify-content: center;
     text-align: center;
     position: relative;
+    @media(max-width:800px){
+        h1 {
+            font-size: 60px;
+        }
+    }
     .content-wrapper {
         transform: translatey(-60px);
     }
@@ -38,7 +43,10 @@
         position: absolute;
         top: 18%;
         right: -1%;
-        animation: moveCloudLeft 20s linear infinite; /* Adjust duration and timing function as needed */
+        animation: moveCloudLeft 20s linear infinite; 
+        @media(max-width:800px){
+            display: none;
+        }
       }
       
     h1 {
@@ -63,6 +71,8 @@
         position: absolute;
         bottom: -13%;
         left: 10%;
-        // box-shadow: 1px 0px 50px yellow;
+        @media(max-width:800px){
+            display: none;
+        }
     }
 }
