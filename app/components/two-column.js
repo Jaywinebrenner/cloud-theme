@@ -15,7 +15,7 @@ const TwoColumn = () => {
 
             <div className='section'>
                 <div className='image-wrapper'>
-                    <img src="/two-column/security-border.webp"/>
+                    <img src="/two-column/get-in-touch.webp"/>
 
                 </div>
                 <div className='text-wrapper'>
@@ -35,13 +35,13 @@ const TwoColumn = () => {
                     <p>Urna condimentum mattis pellentesque id nibh tortor. Curabitur gravida arcu ac tortor dignissim convallis aenean. Turpis nunc eget lorem dolor sed. Amet facilisis magna etiam tempor orci eu lobortis elementum</p>
                 </div>
                 <div className='image-wrapper'>
-                    <img src="/two-column/reliability.png"/>
+                    <img src="/two-column/decide.webp"/>
                 </div>
             </div>
 
             <div className='section'>
                 <div className='image-wrapper'>
-                    <img src="/two-column/efficiency.png"/>
+                    <img src="/two-column/collaborate.webp"/>
                 </div>
                 <div className='text-wrapper'>
                     <h2>Collaborate on Style</h2>
@@ -56,7 +56,7 @@ const TwoColumn = () => {
                     <p>Urna condimentum mattis pellentesque id nibh tortor. Curabitur gravida arcu ac tortor dignissim convallis aenean. Turpis nunc eget lorem dolor sed. Amet facilisis magna etiam tempor orci eu lobortis elementum</p>
                 </div>
                 <div className='image-wrapper'>
-                    <img src="/two-column/reliability.png"/>
+                    <img src="/two-column/deploy.webp"/>
                 </div>
             </div>
 
