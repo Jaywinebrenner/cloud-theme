@@ -24,6 +24,7 @@ const TwoColumn = () => {
                     <div className='cloud-container'>
                         <img className='cloud' src="/two-column/single-cloud.webp"/>
                     </div>
+                    <div className='window-inner-border'></div>
                 </div>
                 <div className='text-wrapper'>
                     <h2>Get in touch!</h2>
@@ -51,6 +52,7 @@ const TwoColumn = () => {
                     <div className='cloud-container'>
                         <img className='cloud' src="/two-column/single-cloud.webp"/>
                     </div>
+                    <div className='window-inner-border'></div>
                 </div>
             </div>
 
@@ -65,6 +67,7 @@ const TwoColumn = () => {
                     <div className='cloud-container'>
                         <img className='cloud' src="/two-column/single-cloud.webp"/>
                     </div>
+                    <div className='window-inner-border'></div>
                 </div>
           '
                 <div className='text-wrapper'>
@@ -96,6 +99,7 @@ const TwoColumn = () => {
                     <div className='cloud-container'>
                         <img className='cloud' src="/two-column/single-cloud.webp"/>
                     </div>
+                    <div className='window-inner-border'></div>
                 </div>
           
 

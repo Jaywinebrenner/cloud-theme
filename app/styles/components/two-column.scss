@@ -72,7 +72,7 @@
         img {
             width: 150px;
             position: absolute;
-            left: -20px;
+            left: -150px;
             z-index: 0;
             animation-duration: 30s; /* Duration of the animation */
             animation-timing-function: linear; /* Linear timing function */
@@ -88,7 +88,7 @@
         }
 
         100% {
-            transform: translateX(200%);
+            transform: translateX(calc(100% + 600px)); /* Adjust 600px to match the width of the cloud image */
         }
     }
     
@@ -97,7 +97,7 @@
             transform: translateX(0);
         }
         100% {
-            transform: translateX(-200%);
+            transform: translateX(calc(-100% - 600px));
         }
     }
     
@@ -108,8 +108,9 @@
             img {
                 width: 150px;
                 position: absolute;
-                right: -20px;
+                right: -150px;
                 left: unset;
+                top: 230px;
                 z-index: 0;
                 animation-duration: 30s; /* Duration of the animation */
                 animation-timing-function: linear; /* Linear timing function */
@@ -126,10 +127,20 @@
         left: 4px; 
         right: 4px; 
         bottom: 4px; 
-        background-color: $darkblue;
-        z-index: -1; 
+        background-color: $darkblue; 
+        border: 4px solid $darkblue; 
+        z-index: -1;
     }
 
+    .window-inner-border {
+        position: absolute;
+        top: 4px; 
+        left: 4px; 
+        right: 4px; 
+        bottom: 4px; 
+        border: 4px solid $darkblue;
+        z-index: 1;
+    }
     a {
         margin-top: 20px;
     }
