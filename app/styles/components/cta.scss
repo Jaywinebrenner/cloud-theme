@@ -37,6 +37,9 @@
         text-align: center;
         margin: auto;
         width: 65%;
+        @media(max-width: 800px){
+            width: 100%;
+        }
         .subtitle {
             margin-bottom: 50px;
         }

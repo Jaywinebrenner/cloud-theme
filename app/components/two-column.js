@@ -14,9 +14,6 @@ const TwoColumn = () => {
             </div>
 
             <div className='section'>
-                {/* <div className='image-wrapper'>
-                    <img src="/two-column/get-in-touch.webp"/>
-                </div> */}
                 <div className='window'>
                     <div className='icon-wrapper'>
                         <img className='icon' src="/two-column/icons/get-in-touch.png"/>
@@ -39,12 +36,9 @@ const TwoColumn = () => {
             <div className='section reverse'>
                 <div className='text-wrapper'>
 
-                    <h2>Decide What is right for your Website</h2>
+                    <h2>Decide what is right for your website</h2>
                     <p>Urna condimentum mattis pellentesque id nibh tortor. Curabitur gravida arcu ac tortor dignissim convallis aenean. Turpis nunc eget lorem dolor sed. Amet facilisis magna etiam tempor orci eu lobortis elementum</p>
                 </div>
-                {/* <div className='image-wrapper'>
-                    <img src="/two-column/decide.webp"/>
-                </div> */}
                 <div className='window'>
                     <div className='icon-wrapper'>
                         <img className='icon' src="/two-column/icons/decide.png"/>
@@ -57,9 +51,6 @@ const TwoColumn = () => {
             </div>
 
             <div className='section'>
-                {/* <div className='image-wrapper'>
-                    <img src="/two-column/collaborate.webp"/>
-                </div> */}
 '                <div className='window'>
                     <div className='icon-wrapper'>
                         <img className='icon' src="/two-column/icons/determine-a-style.png"/>
@@ -79,19 +70,9 @@ const TwoColumn = () => {
             <div className='section reverse'>
                 <div className='text-wrapper'>
 
-                    <h2>Deploy Your Website</h2>
+                    <h2>Deploy and maintain</h2>
                     <p>Urna condimentum mattis pellentesque id nibh tortor. Curabitur gravida arcu ac tortor dignissim convallis aenean. Turpis nunc eget lorem dolor sed. Amet facilisis magna etiam tempor orci eu lobortis elementum</p>
                 </div>
-                {/* <div className='image-wrapper'>
-                    <img className='window-frame' src="/two-column/window-frame.png"/>
-                    <div className='background'></div>
-                    <div className="icon-container">
-                        <img className='icon' src="/two-column/icons/consulting.png"/>
-                    </div>
-                    <div className='cloud-container'>
-                        <img className='cloud' src="/two-column/single-cloud.webp"/>
-                    </div>
-                </div> */}
                 <div className='window'>
                     <div className='icon-wrapper'>
                         <img className='icon' src="/two-column/icons/deploy.png"/>

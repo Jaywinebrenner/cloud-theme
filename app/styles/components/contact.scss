@@ -1,6 +1,11 @@
 
 
 .contact {
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 100px 0;
+    }
     .content-wrapper {
         display: flex;  
         flex-direction: column;
@@ -24,7 +29,6 @@
     .form-wrapper {
         display: flex;
         justify-content: center;
-        margin: 100px 0;
         form {
             background-color: $darkblue;
             padding: 50px;

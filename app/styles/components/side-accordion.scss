@@ -11,6 +11,9 @@
         max-width: 70%;
         margin: auto;
         margin-bottom: 50px;
+        @media(max-width: 800px){
+            max-width: none;
+        }
     }
     &__main {
         display: grid;
