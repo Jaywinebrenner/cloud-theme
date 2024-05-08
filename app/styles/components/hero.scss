@@ -13,12 +13,34 @@
     text-align: center;
     position: relative;
     @media(max-width:800px){
+        flex-direction: column;
         h1 {
             font-size: 60px;
         }
     }
+    .hero-wrapper {
+
+    }
+    .mockup-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media(max-width: 800px){
+            position: unset;
+        }
+        img {
+            @media(max-width: 800px){
+               width: 100%;
+            }
+        }
+    }
     .content-wrapper {
-        transform: translatey(-60px);
+        // transform: translatey(-185px);
+        @media(max-width: 800px){
+            transform: translatey(-22px);
+        }
     }
     .content-wrapper {
         opacity: 0; 

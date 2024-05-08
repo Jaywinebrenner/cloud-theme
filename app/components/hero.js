@@ -34,15 +34,23 @@ const Hero = () => {
 
   return (
     <div className='hero' style={{ backgroundImage: `url(/hero/hero2.webp)` }}>
-      <div className='single-cloud-wrapper'>
-        <img src="/hero/single-cloud.webp"/>
+      <div className='hero-wrapper'>
 
+
+        <div className='single-cloud-wrapper'>
+          <img src="/hero/single-cloud.webp"/>
+
+        </div>
+        <div className={`content-wrapper ${isContentVisible ? 'fade-in' : ''}`}>
+          <h1>Cumulus Web Design</h1>
+          <h3>Affordable Custom Websites for Small Businesses & Beyond</h3>
+        </div>
+        <div className='mockup-wrapper'>
+          <img src="/hero/mockup.png"/>
+
+        </div>
+        <div className='sun'></div>
       </div>
-      <div className={`content-wrapper ${isContentVisible ? 'fade-in' : ''}`}>
-        <h1>Cumulus Web Design</h1>
-        <h3>Affordable Custom Websites for Small Businesses & Beyond</h3>
-      </div>
-      <div className='sun'></div>
     </div>
   );
 };
