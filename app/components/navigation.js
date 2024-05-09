@@ -1,29 +1,32 @@
+"use client"
+import React from 'react';
+import { usePathname, useRouter } from 'next/navigation'
 
-import React from 'react'
-
-const Navigation = ({logoColor}) => {
-  return (
-    <section class="navigation">
-    <div class="navigation__top container">
-        {logoColor === 'white' ? (
-            <a href="/" class="logo-wrapper">
-                <img src="/navigation/logo-correct-white-final.png" alt="Logo" />
-            </a>
-            ) : (
-            <a href="/" class="logo-wrapper">
-                <img src="/navigation/cumulus-logo.png" alt="Logo" />
-            </a>
-            )}
-
+const Navigation = ({ logoColor }) => {
     
-        <div className='links-wrapper'>
-            <a href="/about">About</a>
-            <a href="/team">Team</a>
-            <a href="/contact">Contact</a>
-        </div>
-    </div>
-</section>
-  )
-}
+    const pathname = usePathname()
 
-export default Navigation
+  console.log("pathna;me", pathname)
+  return (
+    <section className="navigation">
+      <div className="navigation__top container">
+        {logoColor === 'white' ? (
+          <a href="/" className="logo-wrapper">
+            <img src="/navigation/logo-correct-white-final.png" alt="Logo" />
+          </a>
+        ) : (
+          <a href="/" className="logo-wrapper">
+            <img src="/navigation/cumulus-logo.png" alt="Logo" />
+          </a>
+        )}
+
+        <div className="links-wrapper">
+          <a href="/about" className={pathname === '/about' ? 'active' : ''}>About</a>
+          <a href="/contact" className={pathname === '/contact' ? 'active' : ''}>Contact</a>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Navigation;

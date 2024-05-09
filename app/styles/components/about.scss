@@ -1,7 +1,7 @@
 
 
-.contact {
-    .contact-wrapper {
+.about {
+    .about-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 100px 0;
@@ -18,7 +18,7 @@
     //         margin-top: 0;
     //     }
     // }
-    // .contact-hero {
+    // .about-hero {
     //     background-size: cover;
     //     background-position: 100% 80%;
     //     height: 50vh; 
@@ -28,28 +28,4 @@
     //     text-align: center;
     //     position: relative;
     // }
-    .form-wrapper {
-        display: flex;
-        justify-content: center;
-        form {
-            background-color: $darkblue;
-            padding: 50px;
-            border-radius: 5px;;
-            .input-wrapper {
-                display: flex;
-                flex-direction: column;
-                margin-bottom: 20px;
-                label {
-                    color: white;
-                }
-                input {
-                    min-width: 300px;
-                    padding: 10px;
-                }
-                textarea {
-                    min-height: 100px;
-                }
-            }
-        }
-    }
 }

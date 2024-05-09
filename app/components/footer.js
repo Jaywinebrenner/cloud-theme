@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='left'>
                 <div>
                   <a>Privacy Policy</a>
-                  <a>Contact</a>
+                  <a href="/contact">Contact</a>
                 </div>
             </div>
             <div className='middle'>

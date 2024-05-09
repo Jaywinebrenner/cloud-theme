@@ -46,7 +46,7 @@ const Hero = () => {
           <h3>Affordable Custom Websites for Small Businesses & Beyond</h3>
         </div>
         <div className='mockup-wrapper'>
-          <img src="/hero/mockup.png"/>
+          <img src="/hero/mockup2.png"/>
 
         </div>
         <div className='sun'></div>

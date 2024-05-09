@@ -31,13 +31,21 @@
             position: unset;
         }
         img {
+            width: 100%;
             @media(max-width: 800px){
                width: 100%;
             }
         }
     }
     .content-wrapper {
-        // transform: translatey(-185px);
+        h1, h3 {
+            position: relative;
+            text-shadow: 
+            -1px -1px 0 $darkblue,  
+             1px -1px 0 $darkblue,
+            -1px  1px 0 $darkblue,
+             1px  1px 0 $darkblue; 
+        }
         @media(max-width: 800px){
             transform: translatey(-22px);
         }
@@ -63,7 +71,7 @@
       
       .single-cloud-wrapper {
         position: absolute;
-        top: 18%;
+        top: 70px;
         left: 100%;
         animation: moveCloudLeft 80s linear infinite; 
         @media(max-width:800px){

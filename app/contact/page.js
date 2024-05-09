@@ -3,6 +3,7 @@
 // app/components/contact/page.js
 import React, { useState, useEffect } from 'react';
 import Navigation from '../components/navigation';
+import SecondaryHero from '../components/SecondaryHero';
 
 
 const Contact = () => {
@@ -54,14 +55,15 @@ const Contact = () => {
   return (
     <div className='contact'>
       <Navigation logoColor="white"/>
+       <SecondaryHero title="Cumulus Web Design" subtitle="Let us connect"/>
 
 
-        <div className='contact-hero' style={{ backgroundImage: `url(/contact/hero-contact.webp)` }}>
+        {/* <div className='contact-hero' style={{ backgroundImage: `url(/contact/hero-contact.webp)` }}>
           <div className={`content-wrapper ${isContentVisible ? 'fade-in' : ''}`}>
             <h1>Cumulus Web Design</h1>
             <h2>Let's Connect!</h2>
           </div>
-        </div>
+        </div> */}
         <div className='container'>
         <div className='contact-wrapper'>
           <div className='form-wrapper'>

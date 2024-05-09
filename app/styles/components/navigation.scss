@@ -14,6 +14,14 @@
             opacity: .6;
         }
     }
+
+    .active {
+        background-color: White;
+        border-radius: 50%;;
+        color: $darkblue;
+        padding: 10px;
+        pointer-events: none;
+    }
     &__top {
         display: flex;
         justify-content: space-between;
@@ -24,6 +32,7 @@
         }
         .links-wrapper{
             display: flex;
+            align-items: center;
             a {
                 cursor: pointer;
             }

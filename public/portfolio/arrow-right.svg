@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 156" width="156" height="156">
+	<title>next-arrow-svg</title>
+	<defs>
+		<image  width="156" height="156" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJwAAACcAQMAAACwdlAOAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA/pgB1KLXkQAAAAJ0Uk5TAP9bkSK1AAABsUlEQVR4nKWXzW2EMBBGAXHgSAmUQmcxnYVOQgfhlpWyIbbHzu7MPClWws1PWvbhn5nPfQdP/xcYAsDXFeDbAvB9BvgxAfwcAX4NAK+e4BYA7ivAYwF4zgBvE8D7CPAaAP4MFKyiClZRBauoglVUwSqqYBVVsIoqWEcaFlENi6iGRVTDIqphEdWwiGpYRDUsQwNF1EARNVBEDRRRA0XUQBE1UEQNlLGFWdTCLGphFrUwi1qYRfuX0D0/WdTCLGphfp+DSdTBJOpgEnUwiTqYRB1Mog4mUQeTqIdR1MMo6mEU9TCKehhFPYyiHkZRD6MowC0A3FeAxwLwnAHeJoD3EeA1AOx6ghvBneBB8PwfxHfiv6MnfRF+O84SzifOPK4RriauO+0Q3Eu463B/4k4+aM/j6cBzRCcOzyaeYjzvWBmiZmO1wbpEFQxrHVZFqZ9Pv6yabTUZqzfWeeoI2Duwy2A/ws6VNZu6IfZN6rDYi7FrY3/HJCCaLekCcwglFsw2mIIwL2GyKpoNaQ1zHSVAzIqYKjF/YlKtmr+nX8zJlKgxe2NKxzyPyR/vCHibeNw7vgEzbBC8apvWVAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<use id="Layer 1" href="#img1" x="0" y="0"/>
+		</g>
+	</g>
+</svg>

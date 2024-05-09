@@ -9,6 +9,7 @@ import ThreeCard from "./components/threeCard";
 import TwoColumn from "./components/two-column";
 import Footer from "./components/footer";
 import LargeCta from "./components/largeCta";
+import Portfolio from "./components/portfolio";
 // import "./styles/app.scss";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <Cta />
       <ThreeCard />
       {/* <InfoCards /> */}
+      <Portfolio/>
       <TwoColumn />
       <SideAccordion />
       <LargeCta/>

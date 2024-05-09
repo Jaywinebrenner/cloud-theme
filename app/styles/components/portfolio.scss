@@ -1,0 +1,37 @@
+
+
+
+.portfolio {
+    h2 {
+        text-align: center;
+    }
+    .portfolio-wrapper {
+        .slick-next {
+            transform: scaleX(-1);
+        }
+    .card {
+        img {
+            width: 60%;
+            text-align: center;
+            margin: auto;
+        }
+        .text-wrapper {
+            text-align: center;
+            margin-bottom: 50px;
+            margin-top: 25px;
+        }
+        .portfolio-btn {
+            background-color: $orange;
+            color: white;
+            padding: 12px;
+            border-radius: 5px;
+            transition: .3s;
+            &:hover {
+                opacity: .6;
+            }
+        }
+    }
+
+        
+    }
+}
