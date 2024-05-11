@@ -12,44 +12,46 @@ import React, { useEffect } from 'react';
 const SideAccordion = () => {
     const cards = [
         {
-            title: "BASIC WEBSITE",
+            title: "BASIC PLAN",
             content: [
-                "If your needs do not require frequent updates we would build your site (with NextJs if you’re curious!) and host it for free. A site that does not require a “back end” which enables updates via a CMS is called a “static” site. We would host your site with Vercel, a popular cloud platform for hosting static sites. ",
-                "If you require simple copy or image updates, get in touch and each update would be $50. If you required further enhancements or pages, we'd have to discuss the specifics to determine the cost. But rest assured, we'd be fair and affordable. ",
-                "A simple static splash page is about $300 with basic design requirements. ",
-                "A basic 3 - 5 page website is generally around $1200. ",
-                "Again, pricing is tough stuff, and we can give you a more accurate quote after chatting. "
+                "If your needs do not require frequent updates, the Basic Plan is your best option.",
+                "A 3-5 page website is generally around $1300 + a monthly Hosting / Retainer fee.",
+                "The Hosting / Retainer fee includes hosting the website for $20 a month and ensures our availability for content updates and further enhancements.",
+                "If you do need to update the copy and images on the website, it is $30 an hour with a 1 hour minimum. Generally all basic updates can be done within 1 hour."
             ]
         },
         {
-            title: "UPDATEABLE WEBSITE",
+            title: "UPDATEABLE PLAN",
             content: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "Purus gravida quis blandit turpis cursus in hac habitasse. Pulvinar sapien et ligula ullamcorper malesuada proin. Porta lorem mollis aliquam ut porttitor leo a diam sollicitudin. Mollis aliquam ut porttitor leo a diam. Id aliquet lectus proin nibh nisl condimentum id venenatis. Vel orci porta non pulvinar neque laoreet suspendisse interdum. Bibendum enim facilisis gravida neque. Congue quisque egestas diam in arcu cursus. Posuere morbi leo urna molestie. Dignissim convallis aenean et tortor at risus viverra. Vulputate dignissim suspendisse in est. Tortor condimentum lacinia quis vel. Pharetra diam sit amet nisl suscipit adipiscing. Vestibulum morbi blandit cursus risus at ultrices mi tempus."
+                "If you would like full control over the content of your website and would like to change copy and images whenever you like, the UPDATABLE PLAN is best.",
+                "We would build your site in WordPress, a globally renowned Content Management System (CMS) known for its versatility and ease of use. With WordPress, you'll have access to an intuitive dashboard to update content whenever you want.",
+                "A 3-5 page website is generally around $1200 + a monthly Hosting / Retainer fee.",
+                "The Hosting / Retainer fee includes hosting the website for $30 a month and ensures our availability for any questions regarding the Content Management System."
             ]
         },
         {
-            title: "ADVANCED WEBSITE",
+            title: "CUSTOM PLAN",
             content: [
-                "Nunc scelerisque viverra mauris in aliquam sem. Odio tempor orci dapibus ultrices in iaculis nunc. At risus viverra adipiscing at in tellus integer. Et tortor consequat id porta nibh venenatis. Quis auctor elit sed vulputate mi sit amet. Eu feugiat pretium nibh ipsum consequat nisl. Feugiat nibh sed pulvinar proin gravida. Volutpat blandit aliquam etiam erat velit scelerisque in dictum. Sagittis purus sit amet volutpat consequat mauris nunc congue. Accumsan sit amet nulla facilisi morbi. Mattis aliquam faucibus purus in massa tempor nec feugiat.",
-                "Purus gravida quis blandit turpis cursus in hac habitasse. Pulvinar sapien et ligula ullamcorper malesuada proin. Porta lorem mollis aliquam ut porttitor leo a diam sollicitudin. Mollis aliquam ut porttitor leo a diam. Id aliquet lectus proin nibh nisl condimentum id venenatis. Vel orci porta non pulvinar neque laoreet suspendisse interdum. Bibendum enim facilisis gravida neque. Congue quisque egestas diam in arcu cursus. Posuere morbi leo urna molestie. Dignissim convallis aenean et tortor at risus viverra. Vulputate dignissim suspendisse in est. Tortor condimentum lacinia quis vel. Pharetra diam sit amet nisl suscipit adipiscing. Vestibulum morbi blandit cursus risus at ultrices mi tempus."
+                "If you would like more advanced features on your website like Ecommerce, User Authentication or a searchable Resource Center, let’s collaborate and bring your vision to life!",
+                "We can schedule a chat to discuss your goals, preferences, and requirements. We'll work closely with you to understand your vision and iron out the details. We will then provide you with a fair and transparent pricing structure based on the scope of work."
             ]
-        },
+        }
     ];
+    
 
-    const pricingPointsLeft = [
-        "How many pages? ",
-        "Is it a static website or will you require a CMS?",
-        "Will you be using a template or custom design?",
-        "Did you want advanced features, like Authentication and E-commerce?",
+    // const pricingPointsLeft = [
+    //     "How many pages? ",
+    //     "Is it a static website or will you require a CMS?",
+    //     "Will you be using a template or custom design?",
+    //     "Did you want advanced features, like Authentication and E-commerce?",
 
-    ]
-    const pricingPointsRight = [
+    // ]
+    // const pricingPointsRight = [
         
-        "Do you need us to source or create your logo and imagery?",
-        "Did you want Analytics and tracking?",
-        "And the list goes on...",   
-    ]
+    //     "Do you need us to source or create your logo and imagery?",
+    //     "Did you want Analytics and tracking?",
+    //     "And the list goes on...",   
+    // ]
 
     useEffect(() => {
         const initPricing = () => {
@@ -88,8 +90,8 @@ const SideAccordion = () => {
             <div className="container">
                 <div className="top">
                     <h2>Pricing</h2>
-                    <p>This is the tricky part. The range is anywhere from $300+. Yea, not that helpful! In order to accurately price a website, we’d need to know the specifics of your need which we can suss out on once we know the scope. </p>
-                    <div className='pricing-points-wrapper'>
+                    {/* <p>This is the tricky part. The range is anywhere from $300+. Yea, not that helpful! In order to accurately price a website, we’d need to know the specifics of your need which we can suss out on once we know the scope. </p> */}
+                    {/* <div className='pricing-points-wrapper'>
                         <div className='left'>
                             <ul>
                             {pricingPointsLeft && pricingPointsLeft.map((p, i) => {
@@ -108,7 +110,7 @@ const SideAccordion = () => {
                             })}
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="side-accordion__main">
                     <div className="nav">

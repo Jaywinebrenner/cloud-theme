@@ -2,8 +2,22 @@
 
 
 .portfolio {
+    background-image: url('/portfolio/bg-team.webp');
+    background-size: cover;
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
     h2 {
         text-align: center;
+        color: white;
+    }
+    .slick-slider svg {
+
     }
     .portfolio-wrapper {
         .slick-next {

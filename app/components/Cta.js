@@ -13,7 +13,7 @@ const Cta = () => {
                     <h2>Get In Touch</h2>
                     <h3 class="subtitle">Have any questions? We're here to discuss your business needs and find the best possible website tailored to you</h3>
 
-                    <a href="/" class="button">Learn More</a>
+                    <a href="/contact" class="button">Contact</a>
 
             </div>
         </div>

@@ -5,20 +5,21 @@ import Slider from "react-slick";
 export default function Portfolio() {
 
     const portfolioData = [
-        {
-            image: "/portfolio/landing-page.png",
-            text: "Cumulus Landing Page Template",
-            url: "https://www.google.com"
-        },
+
         {
             image: "/portfolio/jake-mockup.png",
             text: "Drummer Website",
-            url: "https://www.jakemorris.com"
+            url: "https://www.jakemorrisdrums.com"
         },
         {
             image: "/portfolio/ericcrespo-mockup.png",
             text: "Music Engineer Website",
             url: "https://www.ericcrespo.com"
+        },
+        {
+            image: "/portfolio/landing-page.png",
+            text: "Cumulus Landing Page Template",
+            url: "https://landing-page-template-tau.vercel.app/"
         },
         {
             image: "/portfolio/jay-mockup.png",
