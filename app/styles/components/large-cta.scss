@@ -11,6 +11,9 @@
     justify-content: center;
     text-align: center;
     position: relative;
+    @media(max-width: 800px){
+        padding: 0 24px;
+    }
     h1 {
         margin-bottom: 0;
         color: $white;

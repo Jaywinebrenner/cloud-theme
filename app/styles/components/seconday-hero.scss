@@ -4,11 +4,19 @@
     height: 40vh;
     display: flex;
     justify-content: center;
+    @media(max-width: 800px){
+        height: 60vh;
+    }
     .content-wrapper {
         display: flex;  
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        @media(max-width: 800px){
+            gap: 25px;
+            padding-top: 50px;
+        }
         h1, h2 {
             color: $white;
             margin-bottom: 0;
