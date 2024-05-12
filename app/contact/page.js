@@ -57,15 +57,12 @@ const Contact = () => {
       <Navigation logoColor="white"/>
        <SecondaryHero title="Cumulus Web Design" subtitle="Let us connect"/>
 
-
-        {/* <div className='contact-hero' style={{ backgroundImage: `url(/contact/hero-contact.webp)` }}>
-          <div className={`content-wrapper ${isContentVisible ? 'fade-in' : ''}`}>
-            <h1>Cumulus Web Design</h1>
-            <h2>Let's Connect!</h2>
-          </div>
-        </div> */}
         <div className='container'>
         <div className='contact-wrapper'>
+          <div className='address-wrapper'>
+            <p>+1 503 347 9890</p>
+            <p>jaywinebrenner@gmail.com</p>
+          </div>
           <div className='form-wrapper'>
             <form onSubmit={handleSubmit}>
               <div className='input-wrapper'>
@@ -103,11 +100,6 @@ const Contact = () => {
               <button type='submit'>Submit</button>
             </form>
           </div>
-          <div className='address-wrapper'>
-            <p>+1 503 347 9890</p>
-            <p>jaywinebrenner@gmail.com</p>
-          </div>
-
 
         </div>
       </div>

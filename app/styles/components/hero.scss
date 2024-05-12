@@ -38,6 +38,9 @@
         }
     }
     .content-wrapper {
+        @media(max-width: 800px){
+            padding: 0 12px;
+        }
         h1, h3 {
             position: relative;
             text-shadow: 
