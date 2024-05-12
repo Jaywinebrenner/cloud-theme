@@ -2,7 +2,7 @@
 
 
 .footer {
-        margin: 100px 0;
+        padding: 100px 0;
         .footer-wrapper {    
                 align-items: center;
                 display: flex;
@@ -16,6 +16,7 @@
                 }
                 .left {
                         display: flex;
+                        width: 20%;
                         .info-wrapper {
                                 display: flex;
                                 flex-direction: column;
@@ -28,6 +29,9 @@
                         width: 200px;
                        } 
                 }
+                .right {
+                        width: 20%;
+                }        
         }
         @media (max-width: 800px) {
                 .footer-wrapper {
@@ -46,4 +50,12 @@
                     padding: 50px 0;
                 }
             }
+}
+
+.footer.dark-mode {
+        background-color: $darkblue;
+        a, p {
+                color: $white;
+        }
+        
 }

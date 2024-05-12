@@ -51,7 +51,7 @@ const TwoColumn = () => {
             </div>
 
             <div className='section'>
-'                <div className='window'>
+                 <div className='window'>
                     <div className='icon-wrapper'>
                         <img className='icon' src="/two-column/icons/determine-a-style.png"/>
                     </div>
@@ -60,7 +60,7 @@ const TwoColumn = () => {
                     </div>
                     <div className='window-inner-border'></div>
                 </div>
-          '
+          
                 <div className='text-wrapper'>
                     <h2>Determine a style</h2>
                     <p>Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. Fringilla phasellus faucibus scelerisque eleifend donec. Amet massa vitae tortor condimentum lacinia quis vel. </p>

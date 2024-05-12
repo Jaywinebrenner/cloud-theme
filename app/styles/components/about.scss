@@ -1,31 +1,19 @@
 
 
 .about {
+
     .about-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 100px 0;
+        max-width: 60%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+        .btn-wrapper {
+            margin-top: 50px;
+            .btn {
+                text-align: center;
+            }
+
+        }
     }
-    // .content-wrapper {
-    //     display: flex;  
-    //     flex-direction: column;
-    //     justify-content: center;
-    //     align-items: center;
-    //     transform: translatey(-26px);
-    //     h1, h2 {
-    //         color: $white;
-    //         margin-bottom: 0;
-    //         margin-top: 0;
-    //     }
-    // }
-    // .about-hero {
-    //     background-size: cover;
-    //     background-position: 100% 80%;
-    //     height: 50vh; 
-    //     display: flex;
-    //     align-items: center;
-    //     justify-content: center;
-    //     text-align: center;
-    //     position: relative;
-    // }
 }

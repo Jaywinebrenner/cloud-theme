@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({mode}) => {
   return (
-    <div className='footer'>
+<div className={`footer ${mode === "dark" ? "dark-mode" : ""}`}>
         <div className='container'>
           <div className='footer-wrapper'>
             <div className='left'>
@@ -12,7 +12,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className='middle'>
-              <img src="/navigation/cumulus-logo.png" alt="Logo" />
+              {/* <img src="/navigation/cumulus-logo.png" alt="Logo" /> */}
+              {mode === "dark" ? <img src="/navigation/cumulus-logo-white.png" alt="Logo" /> :<img src="/navigation/cumulus-logo.png" alt="Logo" /> }
         
             </div>
             <div className='right'>

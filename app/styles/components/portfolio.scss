@@ -12,6 +12,8 @@
     text-align: center;
     position: relative;
 
+
+
     h2 {
         text-align: center;
         color: white;
@@ -23,11 +25,19 @@
         .slick-next {
             transform: scaleX(-1);
         }
+        @media(max-width: 650px){
+            .slick-arrow {
+                display: none!important;
+            }
+        }
     .card {
         img {
             width: 60%;
             text-align: center;
             margin: auto;
+            @media(max-width: 800px){
+                width: 100%;
+            }
         }
         .text-wrapper {
             text-align: center;

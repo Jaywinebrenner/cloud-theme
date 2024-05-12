@@ -4,6 +4,7 @@
 import React, { useState, useEffect } from 'react';
 import Navigation from '../components/navigation';
 import SecondaryHero from '../components/SecondaryHero';
+import Footer from "../components/footer";
 
 
 const Contact = () => {
@@ -60,7 +61,7 @@ const Contact = () => {
         <div className='container'>
         <div className='contact-wrapper'>
           <div className='address-wrapper'>
-            <p>+1 503 347 9890</p>
+          <a href="tel:+15033479890">+1 503 347 9890</a>
             <p>jaywinebrenner@gmail.com</p>
           </div>
           <div className='form-wrapper'>
@@ -103,6 +104,7 @@ const Contact = () => {
 
         </div>
       </div>
+      <Footer mode="dark"/>
     </div>
   );
 };
