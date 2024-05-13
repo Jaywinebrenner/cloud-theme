@@ -32,14 +32,8 @@ const TwoColumn = () => {
                 </div>
             </div>
 
-
             <div className='section reverse'>
-                <div className='text-wrapper'>
-
-                    <h2>Decide what is right for your website</h2>
-                    <p>Urna condimentum mattis pellentesque id nibh tortor. Curabitur gravida arcu ac tortor dignissim convallis aenean. Turpis nunc eget lorem dolor sed. Amet facilisis magna etiam tempor orci eu lobortis elementum</p>
-                </div>
-                <div className='window'>
+                 <div className='window'>
                     <div className='icon-wrapper'>
                         <img className='icon' src="/two-column/icons/decide.png"/>
                     </div>
@@ -48,31 +42,15 @@ const TwoColumn = () => {
                     </div>
                     <div className='window-inner-border'></div>
                 </div>
+                <div className='text-wrapper'>
+                    <h2>Determine a style</h2>
+                    <p>Whether you're a design enthusiast armed with a Figma file or a detailed layout, we're ready to bring your vision to life.</p>
+                    <p>If you have a general concept in mind for your website's look and feel, we're here to dive deep into it. Share with us the websites that inspire you, the color palettes that resonate, and the images that reflect your story. We'll meticulously craft your website and keep you in the loop with links to the work-in-progress for your valuable feedback.
+                    </p>
+                </div>
             </div>
 
             <div className='section'>
-                 <div className='window'>
-                    <div className='icon-wrapper'>
-                        <img className='icon' src="/two-column/icons/determine-a-style.png"/>
-                    </div>
-                    <div className='cloud-container'>
-                        <img className='cloud' src="/two-column/single-cloud.webp"/>
-                    </div>
-                    <div className='window-inner-border'></div>
-                </div>
-          
-                <div className='text-wrapper'>
-                    <h2>Determine a style</h2>
-                    <p>Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. Fringilla phasellus faucibus scelerisque eleifend donec. Amet massa vitae tortor condimentum lacinia quis vel. </p>
-                </div>
-            </div>
-
-            <div className='section reverse'>
-                <div className='text-wrapper'>
-
-                    <h2>Deploy and maintain</h2>
-                    <p>Urna condimentum mattis pellentesque id nibh tortor. Curabitur gravida arcu ac tortor dignissim convallis aenean. Turpis nunc eget lorem dolor sed. Amet facilisis magna etiam tempor orci eu lobortis elementum</p>
-                </div>
                 <div className='window'>
                     <div className='icon-wrapper'>
                         <img className='icon' src="/two-column/icons/deploy.png"/>
@@ -82,11 +60,13 @@ const TwoColumn = () => {
                     </div>
                     <div className='window-inner-border'></div>
                 </div>
-          
+                <div className='text-wrapper'>
 
+                    <h2>Deploy and maintain</h2>
+                    <p>After completing the website development process, we'll seamlessly set up your domain and hosting service, ensuring a smooth transition to the online world.</p>
+                    <p>We remain at your service through the retainer, offering support for content updates, implementing new features, and providing ongoing website maintenance.</p>
+                </div>
             </div>
-
-  
         </div>
     </div>
   )

@@ -7,7 +7,7 @@ const LargeCta = () => {
     <div className='large-cta' style={{ backgroundImage: `url(/hero/bg3.webp)` }}>
       <div className='content-wrapper'>
         <h1>Let's Chat!</h1>
-        <h3>Et maiores alias consequatur aut perferendis doloribus asperiores repellat.</h3>
+        <h3>Any and all questions are welcome</h3>
         <a className='btn' href="/contact">Contact</a>``
       </div>
     </div>

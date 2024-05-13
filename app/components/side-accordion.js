@@ -14,7 +14,7 @@ const SideAccordion = () => {
         {
             title: "BASIC PLAN",
             content: [
-                "If your needs do not require frequent updates, the Basic Plan is your best option.",
+                "If your needs do not require frequent updates, the BASIC PLAN is your best option.",
                 "A 3-5 page website is generally around $1300 + a monthly Hosting / Retainer fee.",
                 "The Hosting / Retainer fee includes hosting the website for $20 a month and ensures our availability for content updates and further enhancements.",
                 "If you do need to update the copy and images on the website, it is $30 an hour with a 1 hour minimum. Generally all basic updates can be done within 1 hour."
