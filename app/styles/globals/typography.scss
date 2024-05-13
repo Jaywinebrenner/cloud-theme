@@ -13,7 +13,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, a {
   font-family: $font1;
   font-weight: 300;
   color: $darkblue;
@@ -107,7 +107,7 @@ a {
 }
 
 a {
-  color: $black;
+  color: $darkblue;
   text-decoration: none;
   transition: .3s;
   &:hover {
