@@ -21,11 +21,11 @@ const About = () => {
           <div className='about-wrapper'>
             <p>Hello, I'm Jay, the founder of Cumulus Web Design, a creative studio nestled in the heart of Portland, Oregon.</p>
 
-            <p>At Cumulus Web Design, we specialize in crafting stunning and high-performing websites that breathe life into your digital presence.</p>
+            <p>At Cumulus Web Design, we specialize in crafting beautiful and performant websites that breathe life into your digital presence.</p>
 
-            <p>From the soulful melodies of musicians to the meticulous craftsmanship of construction companies, we love bringing a diverse range of visions to life online. Whether you're an artist, a small business, or a restaurateur, we're passionate about translating your unique identity into an immersive online experience.</p>
+            <p>We love bringing a diverse range of visions to life online. Whether you're an artist, a small business, or a restaurateur, we're passionate about translating your unique identity into a fantastic online experience.</p>
 
-            <p>Let's collaborate to elevate your brand and captivate your audience with a website that truly shines.</p>
+            <p>Let's collaborate! Give us a call, shoot us an email! </p>
             <div className='btn-wrapper'>
                <a className="btn" href="/contact">Contact</a>
             </div>

@@ -8,13 +8,7 @@
             width: 100%;
         }
     }
-    a {
-        // color: $darkblue;
-    }
     .contact-wrapper {
-        // display: grid;
-        // grid-template-columns: 1fr 1fr;
-        // gap: 50px;
         gap: 50px;
         margin: 100px 0;
         display: flex;
@@ -36,26 +30,43 @@
             background-color: $darkblue;
             padding: 50px;
             border-radius: 5px;;
-            .input-wrapper {
-                display: flex;
-                flex-direction: column;
-                margin-bottom: 20px;
-                label {
-                    color: white;
-                }
-                input {
-                    min-width: 300px;
-                    padding: 10px;
-                    @media(max-width: 800px){
-                        min-width: 10px;
-                        // width: 100%;
-                    }
-                }
+            label {
+                color: white;
+                margin-bottom: 4px;
+            }
+            input[type="text"],
+                input[type="email"],
                 textarea {
-                    min-height: 100px;
+                font-family: "Arial", sans-serif; 
+            }
+            input:focus,
+                textarea:focus {
+                outline: 2px solid $orange;
+            }
+            input {
+                box-sizing: border-box;
+                width: 100%;
+                padding: 10px; 
+                margin-bottom: 10px;
+                margin-top: 5px;
+                @media(max-width: 800px){
+                    min-width: 10px;
                 }
             }
+            textarea {
+                box-sizing: border-box;
+                width: 100%;
+                padding: 10px; 
+                margin-bottom: 10px;
+                margin-top: 5px;
+            }
+            button {
+                cursor: pointer;
+            }
         }
+        form > div:nth-of-type(-n+4) {
+            margin-bottom: 24px;
+          }
     }
     .address-wrapper {
         flex: 1 1;
