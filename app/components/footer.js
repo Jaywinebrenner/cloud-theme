@@ -12,7 +12,6 @@ const Footer = ({mode}) => {
                 </div>
             </div>
             <div className='middle'>
-              {/* <img src="/navigation/cumulus-logo.png" alt="Logo" /> */}
               {mode === "dark" ? <img src="/navigation/cumulus-logo-white.png" alt="Logo" /> :<img src="/navigation/cumulus-logo.png" alt="Logo" /> }
         
             </div>
