@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import "./styles/app.scss"
+import "./styles/app.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from 'next/head';
@@ -20,7 +20,6 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content="custom websites, affordable websites, small business websites, cumulus web design, build a website, website builers" />
 
         {/* TWITTER */}
-
         <meta name="twitter:title" content="Cumulus Web Design" />
         <meta name="twitter:description" content="Affordable Custom Websites for Small Businesses & Beyond" />
         <meta name="twitter:image" content="/open-graph/twitter-open-graph.png" />
@@ -32,14 +31,24 @@ export default function RootLayout({ children }) {
         <meta property="og:image" content="/open-graph/facebook.png"/>
         <meta property="og:url" content="https://cumuluswebdesign.net/"/>
         <meta property="og:type" content="website"/>
-        <meta property="fb:app_id" content="Your-Facebook-App-ID"></meta>
+        <meta property="fb:app_id" content="Your-Facebook-App-ID" />
 
         {/* LINKEDIN */}
 
-
         <meta name="author" content="Jay Winebrenner" />
 
-
+        {/* GOOGLE ANALYTICS */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJNH5839N9"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-YJNH5839N9');
+            `,
+          }}
+        />
 
         <link rel="shortcut icon" href="/favicons/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon.png" />
@@ -47,7 +56,6 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png"/>
       </Head>
 
-      
       <body className={inter.className}>{children}</body>
     </html>
   );
