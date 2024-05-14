@@ -8,7 +8,7 @@ const Navigation = ({ logoColor }) => {
 
   console.log("pathna;me", pathname)
   return (
-    <section className="navigation">
+    <header className="navigation">
       <div className="navigation__top container">
         {logoColor === 'white' ? (
           <a href="/" className="logo-wrapper-white">
@@ -25,7 +25,7 @@ const Navigation = ({ logoColor }) => {
           <a href="/contact" className={pathname === '/contact' ? 'active' : ''}>Contact</a>
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 

@@ -25,7 +25,7 @@ const SideAccordion = () => {
             content: [
                 "If you would like full control over the content of your website and would like to change copy and images whenever you like, the UPDATABLE PLAN is best.",
                 "We would build your site in WordPress, a globally renowned Content Management System (CMS) known for its versatility and ease of use. With WordPress, you'll have access to an intuitive dashboard to update content whenever you want.",
-                "A 3-5 page website is generally around $1200 + a monthly Hosting / Retainer fee.",
+                "A 3-5 page website is generally around $1300 + a monthly Hosting / Retainer fee.",
                 "The Hosting / Retainer fee includes hosting the website for $30 a month and ensures our availability for any questions regarding the Content Management System."
             ]
         },

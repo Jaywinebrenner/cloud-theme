@@ -7,7 +7,7 @@ const Footer = ({mode}) => {
   const [year, setYear] = useState(new Date().getFullYear());
 
   return (
-      <div className={`footer ${mode === "dark" ? "dark-mode" : ""}`}>
+      <footer className={`footer ${mode === "dark" ? "dark-mode" : ""}`}>
         <div className='container'>
           <div className='footer-wrapper'>
             <div className='left'>
@@ -31,7 +31,7 @@ const Footer = ({mode}) => {
         <div className={`copyright-wrapper ${mode === "dark" ? "dark-mode" : ""}`}>
           <p className='minor'>© Cumulus Web Design {year}</p>
         </div>
-    </div>
+    </footer>
   )
 }
 

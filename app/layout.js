@@ -14,14 +14,38 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-        <Head>
-          <title>Cumulus Web Design</title>
-          <meta name="description" content="Affordable Custom Websites for Small Businesses & Beyond" />
-          <link rel="shortcut icon" href="/favicons/favicon.ico" />
-          <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon.png" />
-          <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png"/>
-          <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png"/>
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content="custom websites, affordable websites, small business websites, cumulus web design, build a website, website builers" />
+
+        {/* TWITTER */}
+
+        <meta name="twitter:title" content="Cumulus Web Design" />
+        <meta name="twitter:description" content="Affordable Custom Websites for Small Businesses & Beyond" />
+        <meta name="twitter:image" content="/open-graph/twitter-open-graph.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        {/* FACEBOOK */}
+        <meta property="og:title" content="Cumulus Web Design"/>
+        <meta property="og:description" content="Affordable Custom Websites for Small Businesses & Beyond"/>
+        <meta property="og:image" content="/open-graph/facebook.png"/>
+        <meta property="og:url" content="https://cumuluswebdesign.net/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="fb:app_id" content="Your-Facebook-App-ID"></meta>
+
+
+        <meta name="author" content="Jay Winebrenner" />
+
+
+
+        <link rel="shortcut icon" href="/favicons/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png"/>
       </Head>
+
+      
       <body className={inter.className}>{children}</body>
     </html>
   );
