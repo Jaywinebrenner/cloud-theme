@@ -1,8 +1,13 @@
-import React from 'react'
+"use client"
+
+
+import React, { useState } from 'react'
 
 const Footer = ({mode}) => {
+  const [year, setYear] = useState(new Date().getFullYear());
+
   return (
-<div className={`footer ${mode === "dark" ? "dark-mode" : ""}`}>
+      <div className={`footer ${mode === "dark" ? "dark-mode" : ""}`}>
         <div className='container'>
           <div className='footer-wrapper'>
             <div className='left'>
@@ -24,7 +29,7 @@ const Footer = ({mode}) => {
           </div>
         </div>
         <div className={`copyright-wrapper ${mode === "dark" ? "dark-mode" : ""}`}>
-          <p className='minor'>© Jay Winebrenner 2024</p>
+          <p className='minor'>© Jay Winebrenner {year}</p>
         </div>
     </div>
   )
