@@ -16,7 +16,7 @@ export default function Contact() {
         <div className='contact-wrapper'>
           <div className='address-wrapper'>
             <a href="tel:+15033479890">+1 503 347 9890</a>
-            <p>jaywinebrenner@gmail.com</p>
+            <p>cumuluswebdesign@gmail.com</p>
           </div>
           <div className='form-wrapper'>
             <Form />
