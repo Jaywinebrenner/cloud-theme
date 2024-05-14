@@ -2,12 +2,12 @@
 
 
 .footer {
-        padding: 100px 0;
+        // padding: 100px 0;
         .footer-wrapper {    
                 align-items: center;
                 display: flex;
                 justify-content: space-between;
-
+                padding: 100px 0;
                 a {
                         display: block;
                         margin: 1em 0;
@@ -53,6 +53,19 @@
                 .middle {
                     order: 1; 
                     padding: 50px 0;
+                }
+            }
+            .copyright-wrapper {
+                display: flex;
+                justify-content: center;
+                color: $white;
+                background-color: $darkblue;;
+            }
+            .copyright-wrapper.dark-mode {
+                color: $darkblue;
+                background-color: white;
+                p {
+                        color: $darkblue;
                 }
             }
 }

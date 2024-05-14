@@ -7,8 +7,9 @@ const Footer = ({mode}) => {
           <div className='footer-wrapper'>
             <div className='left'>
                 <div>
-                  <a>Privacy Policy</a>
+                  {/* <a>Privacy Policy</a> */}
                   <a href="/contact">Contact</a>
+               
                 </div>
             </div>
             <div className='middle'>
@@ -21,6 +22,9 @@ const Footer = ({mode}) => {
                 <p>jaywinebrenner@gmail.com</p>
             </div>
           </div>
+        </div>
+        <div className={`copyright-wrapper ${mode === "dark" ? "dark-mode" : ""}`}>
+          <p className='minor'>© Jay Winebrenner 2024</p>
         </div>
     </div>
   )
