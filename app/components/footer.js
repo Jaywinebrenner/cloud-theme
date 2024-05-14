@@ -29,7 +29,7 @@ const Footer = ({mode}) => {
           </div>
         </div>
         <div className={`copyright-wrapper ${mode === "dark" ? "dark-mode" : ""}`}>
-          <p className='minor'>© Jay Winebrenner {year}</p>
+          <p className='minor'>© Cumulus Web Design {year}</p>
         </div>
     </div>
   )
