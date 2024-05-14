@@ -34,6 +34,8 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content="website"/>
         <meta property="fb:app_id" content="Your-Facebook-App-ID"></meta>
 
+        {/* LINKEDIN */}
+
 
         <meta name="author" content="Jay Winebrenner" />
 
