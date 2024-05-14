@@ -16,6 +16,21 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+
+        {/* GOOGLE ANALYTICS */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJNH5839N9"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-YJNH5839N9');
+            `,
+          }}
+        />
+
+        
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content="custom websites, affordable websites, small business websites, cumulus web design, build a website, website builers" />
@@ -38,18 +53,7 @@ export default function RootLayout({ children }) {
 
         <meta name="author" content="Jay Winebrenner" />
 
-        {/* GOOGLE ANALYTICS */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YJNH5839N9"></Script>
-        <Script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-YJNH5839N9');
-            `,
-          }}
-        />
+
 
         <link rel="shortcut icon" href="/favicons/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon.png" />
