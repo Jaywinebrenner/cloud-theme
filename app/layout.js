@@ -3,6 +3,7 @@ import "./styles/app.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from 'next/head';
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,8 +39,8 @@ export default function RootLayout({ children }) {
         <meta name="author" content="Jay Winebrenner" />
 
         {/* GOOGLE ANALYTICS */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJNH5839N9"></script>
-        <script
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YJNH5839N9"></Script>
+        <Script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
