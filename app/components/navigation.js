@@ -12,11 +12,11 @@ const Navigation = ({ logoColor }) => {
       <div className="navigation__top container">
         {logoColor === 'white' ? (
           <a href="/" className="logo-wrapper-white">
-            <img src="/navigation/logo-correct-white-final.png" alt="Logo" />
+            <img  loading="lazy"  src="/navigation/logo-correct-white-final.png" alt="Logo" />
           </a>
         ) : (
           <a href="/" className="logo-wrapper-blue">
-            <img src="/navigation/cumulus-logo.png" alt="Logo" />
+            <img  loading="lazy"  src="/navigation/cumulus-logo.png" alt="Logo" />
           </a>
         )}
 

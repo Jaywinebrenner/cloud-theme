@@ -61,7 +61,7 @@ const InfoCards = () => {
                                 </div>
                                 <div class="card__bottom">
                                     <div class="icon-wrapper">
-                                        <img src={card.icon} alt={card.icon} />
+                                        <img  loading="lazy"  src={card.icon} alt={card.icon} />
                                     </div>
                                     <p>{card.content}</p>
                                     {card.button && <div class="button-wrapper">

@@ -40,7 +40,7 @@ const ThreeCard = () => {
                                 <h3>{card.title}</h3>
                             </div>
                             <div className="bottom">
-                                <img src={card.icon} alt={card.title} />
+                                <img  loading="lazy"  src={card.icon} alt={card.title} />
                                 <div className="subtitle">
                                     {card.content.map((paragraph, index) => (
                                         <p key={index}>{paragraph}</p>

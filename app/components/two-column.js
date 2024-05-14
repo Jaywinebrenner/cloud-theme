@@ -16,10 +16,10 @@ const TwoColumn = () => {
             <div className='section'>
                 <div className='window'>
                     <div className='icon-wrapper'>
-                        <img className='icon' src="/two-column/icons/get-in-touch.png"/>
+                        <img  loading="lazy"  className='icon' src="/two-column/icons/get-in-touch.png"/>
                     </div>
                     <div className='cloud-container'>
-                        <img className='cloud' src="/two-column/single-cloud.webp"/>
+                        <img  loading="lazy"  className='cloud' src="/two-column/single-cloud.webp"/>
                     </div>
                     <div className='window-inner-border'></div>
                 </div>
@@ -35,10 +35,10 @@ const TwoColumn = () => {
             <div className='section reverse'>
                  <div className='window'>
                     <div className='icon-wrapper'>
-                        <img className='icon' src="/two-column/icons/decide.png"/>
+                        <img  loading="lazy"  className='icon' src="/two-column/icons/decide.png"/>
                     </div>
                     <div className='cloud-container'>
-                        <img className='cloud' src="/two-column/single-cloud.webp"/>
+                        <img  loading="lazy"  className='cloud' src="/two-column/single-cloud.webp"/>
                     </div>
                     <div className='window-inner-border'></div>
                 </div>
@@ -53,10 +53,10 @@ const TwoColumn = () => {
             <div className='section'>
                 <div className='window'>
                     <div className='icon-wrapper'>
-                        <img className='icon' src="/two-column/icons/deploy.png"/>
+                        <img  loading="lazy"  className='icon' src="/two-column/icons/deploy.png"/>
                     </div>
                     <div className='cloud-container'>
-                        <img className='cloud' src="/two-column/single-cloud.webp"/>
+                        <img  loading="lazy"  className='cloud' src="/two-column/single-cloud.webp"/>
                     </div>
                     <div className='window-inner-border'></div>
                 </div>

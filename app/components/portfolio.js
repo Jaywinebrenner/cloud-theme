@@ -80,7 +80,7 @@ export default function Portfolio() {
                             return (
                                 <div className="card" key={`portfolio-card=${i}`}>
                                     <div className="image-wrapper">
-                                        <img src={card.image}/>     
+                                        <img  loading="lazy"  src={card.image}/>     
                                     </div>
                                     <div className="text-wrapper">
                                         <a target="_blank" className="portfolio-btn" href={card.url}>
