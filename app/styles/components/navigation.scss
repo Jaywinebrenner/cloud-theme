@@ -53,6 +53,9 @@
     }
     img {
         width: 115px;
+        @media(max-width: 800px){
+            width: 80px;
+        }
     }
 }
 .privacy-page {
