@@ -8,7 +8,7 @@ export default function Portfolio() {
 
         {
             image: "/portfolio/jake-mockup.png",
-            text: "Drummer Website",
+            text: "Musician Website",
             url: "https://www.jakemorrisdrums.com"
         },
         {
@@ -22,7 +22,7 @@ export default function Portfolio() {
             url: "https://landing-page-template-tau.vercel.app/"
         },
         {
-            image: "/portfolio/jay-mockup.png",
+            image: "/portfolio/webdev-mockup.png",
             text: "Web Developer Website",
             url: "https://www.jaywinebrenner.com"
         },
