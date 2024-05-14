@@ -24,7 +24,7 @@ const Footer = ({mode}) => {
             <div className='right'>
                 <p>Cumulus Web Design</p>
                 <p>503.347-9890</p>
-                <p>jaywinebrenner@gmail.com</p>
+                <p>cumuluswebdesign@gmail.com</p>
             </div>
           </div>
         </div>
