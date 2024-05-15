@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from 'next/head';
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,7 +31,7 @@ export default function RootLayout({ children }) {
           }}
         /> */}
 
-        <GoogleAnalytics gtmId="G-VJE13M754E" />
+
 
         
         <title>{metadata.title}</title>
@@ -63,7 +64,11 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png"/>
       </Head>
 
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <GoogleAnalytics gtmId="G-VJE13M754E" />
+        <GoogleTagManager gtmId="G-VJE13M754E"/>
+        </body>
     </html>
   );
 }
