@@ -1,16 +1,16 @@
 "use client"
 import React, { useState } from 'react';
-import Navigation from '../components/navigation';
-import SecondaryHero from '../components/SecondaryHero';
-import Footer from '../components/footer';
-import Form from '../components/Form';
+import Navigation from '../../components/navigation';
+import SecondaryHero from '../../components/SecondaryHero';
+import Footer from '../../components/footer';
+import Form from '../../components/Form';
 
 export default function Contact() {
   const [isContentVisible, setContentVisible] = useState(false);
 
   return (
     <main className='contact'>
-      <Navigation logoColor="white" />
+      {/* <Navigation logoColor="white" /> */}
       <SecondaryHero title="Cumulus Web Design" subtitle="Let us connect" isContentVisible={isContentVisible} />
       <div className='container'>
         <div className='contact-wrapper'>

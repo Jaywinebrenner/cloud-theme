@@ -2,9 +2,9 @@
 
 // app/components/about/page.js
 import React, { useState, useEffect } from 'react';
-import Navigation from '../components/navigation';
-import SecondaryHero from '../components/SecondaryHero';
-import Footer from '../components/footer';
+import Navigation from '../../components/navigation';
+import SecondaryHero from '../../components/SecondaryHero';
+import Footer from '../../components/footer';
 
 
 const About = () => {
@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <div className='about'>
-      <Navigation logoColor="white"/>
+      {/* <Navigation logoColor="white"/> */}
         <SecondaryHero title="Cumulus Web Design" subtitle="About Us"/>
 
         <div className='container'>
