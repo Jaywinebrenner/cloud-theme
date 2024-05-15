@@ -3,7 +3,7 @@ import "./styles/app.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from 'next/head';
-import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           }}
         /> */}
 
-        <GoogleTagManager gtmId="G-VJE13M754E" />
+        <GoogleAnalytics gtmId="G-VJE13M754E" />
 
         
         <title>{metadata.title}</title>
