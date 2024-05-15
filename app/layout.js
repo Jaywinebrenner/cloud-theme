@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           }}
         /> */}
 
-        <GoogleTagManager gtmId="G-YJNH5839N9" />
+        <GoogleTagManager gtmId="G-VJE13M754E" />
 
         
         <title>{metadata.title}</title>
