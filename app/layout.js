@@ -17,23 +17,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-
-        {/* GOOGLE ANALYTICS */}
-        {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YJNH5839N9"></Script>
-        <Script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-YJNH5839N9');
-            `,
-          }}
-        /> */}
-
-
-
-        
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content="custom websites, affordable websites, small business websites, cumulus web design, build a website, website builers" />
@@ -41,13 +24,13 @@ export default function RootLayout({ children }) {
         {/* TWITTER */}
         <meta name="twitter:title" content="Cumulus Web Design" />
         <meta name="twitter:description" content="Affordable Custom Websites for Small Businesses & Beyond" />
-        <meta name="twitter:image" content="/open-graph/twitter-open-graph.png" />
+        <meta name="twitter:image" content="/open-graph/twitter-open-graph.webp" />
         <meta name="twitter:card" content="summary_large_image" />
 
         {/* FACEBOOK */}
         <meta property="og:title" content="Cumulus Web Design"/>
         <meta property="og:description" content="Affordable Custom Websites for Small Businesses & Beyond"/>
-        <meta property="og:image" content="/open-graph/facebook.png"/>
+        <meta property="og:image" content="/open-graph/facebook.webp"/>
         <meta property="og:url" content="https://cumuluswebdesign.net/"/>
         <meta property="og:type" content="website"/>
         <meta property="fb:app_id" content="Your-Facebook-App-ID" />
