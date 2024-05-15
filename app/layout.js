@@ -18,8 +18,8 @@ export default function RootLayout({ children }) {
       <Head>
 
         {/* GOOGLE ANALYTICS */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJNH5839N9"></script>
-        <script
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YJNH5839N9"></Script>
+        <Script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
