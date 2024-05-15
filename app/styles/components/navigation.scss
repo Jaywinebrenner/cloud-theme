@@ -14,7 +14,11 @@
             opacity: .6;
         }
     }
-
+    .logo-wrapper-blue, .logo-wrapper-white {
+        @media(max-width: 800px){
+            margin-left: 0;
+        }
+    }
     .active {
         background-color: White;
         border-radius: 50%;;

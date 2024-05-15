@@ -10,7 +10,7 @@ import TwoColumn from "./components/two-column";
 import Footer from "./components/footer";
 import LargeCta from "./components/largeCta";
 import Portfolio from "./components/portfolio";
-// import "./styles/app.scss";
+
 
 export default function Home() {
 

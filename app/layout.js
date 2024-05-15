@@ -1,10 +1,14 @@
+
+"use"
+
 import { Inter } from "next/font/google";
 import "./styles/app.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from 'next/head';
 import { GoogleAnalytics } from '@next/third-parties/google'
-import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleTagManager } from '@next/third-parties/google';
+import Navigation from "./components/navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +16,8 @@ export const metadata = {
   title: "Cumulus Web Design",
   description: "Affordable Custom Websites for Small Businesses & Beyond",
 };
+
+
 
 export default function RootLayout({ children }) {
   return (
@@ -24,7 +30,7 @@ export default function RootLayout({ children }) {
         {/* TWITTER */}
         <meta name="twitter:title" content="Cumulus Web Design" />
         <meta name="twitter:description" content="Affordable Custom Websites for Small Businesses & Beyond" />
-        <meta name="twitter:image" content="https://www.cumuluswebdesign.net/open-graph/twitter.png" />
+        <meta name="twitter:image" content="https://www.cumuluswebdesign.net/open-graph/twitter-open-graph.png" />
         <meta name="twitter:card" content="summary_large_image" />
 
         {/* FACEBOOK */}
@@ -48,6 +54,7 @@ export default function RootLayout({ children }) {
       </Head>
 
       <body className={inter.className}>
+        {/* <Navigation logoColor="white"/> */}
         {children}
         <GoogleAnalytics gtmId="G-VJE13M754E" />
         <GoogleTagManager gtmId="G-VJE13M754E"/>
