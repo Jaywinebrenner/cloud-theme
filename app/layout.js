@@ -24,13 +24,13 @@ export default function RootLayout({ children }) {
         {/* TWITTER */}
         <meta name="twitter:title" content="Cumulus Web Design" />
         <meta name="twitter:description" content="Affordable Custom Websites for Small Businesses & Beyond" />
-        <meta name="twitter:image" content="/open-graph/twitter-open-graph.png" />
+        <meta name="twitter:image" content="open-graph/twitter-open-graph.png" />
         <meta name="twitter:card" content="summary_large_image" />
 
         {/* FACEBOOK */}
         <meta property="og:title" content="Cumulus Web Design"/>
         <meta property="og:description" content="Affordable Custom Websites for Small Businesses & Beyond"/>
-        <meta property="og:image" content="/open-graph/facebook.png"/>
+        <meta property="og:image" content="open-graph/facebook.png"/>
         <meta property="og:url" content="https://cumuluswebdesign.net/"/>
         <meta property="og:type" content="website"/>
         <meta property="fb:app_id" content="Your-Facebook-App-ID" />
