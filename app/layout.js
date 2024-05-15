@@ -3,7 +3,7 @@ import "./styles/app.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from 'next/head';
-import Script from 'next/script'
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <Head>
 
         {/* GOOGLE ANALYTICS */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YJNH5839N9"></Script>
+        {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YJNH5839N9"></Script>
         <Script
           dangerouslySetInnerHTML={{
             __html: `
@@ -28,7 +28,9 @@ export default function RootLayout({ children }) {
               gtag('config', 'G-YJNH5839N9');
             `,
           }}
-        />
+        /> */}
+
+        <GoogleTagManager gtmId="G-YJNH5839N9" />
 
         
         <title>{metadata.title}</title>
