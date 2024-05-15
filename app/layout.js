@@ -24,13 +24,13 @@ export default function RootLayout({ children }) {
         {/* TWITTER */}
         <meta name="twitter:title" content="Cumulus Web Design" />
         <meta name="twitter:description" content="Affordable Custom Websites for Small Businesses & Beyond" />
-        <meta name="twitter:image" content="https://imgur.com/a/jsPNVbX" />
+        <meta name="twitter:image" content="https://www.cumuluswebdesign.net/open-graph/twitter.png" />
         <meta name="twitter:card" content="summary_large_image" />
 
         {/* FACEBOOK */}
         <meta property="og:title" content="Cumulus Web Design"/>
         <meta property="og:description" content="Affordable Custom Websites for Small Businesses & Beyond"/>
-        <meta property="og:image" content="https://imgur.com/a/jsPNVbX"/>
+        <meta property="og:image" content="https://www.cumuluswebdesign.net/open-graph/facebook.png"/>
         <meta property="og:url" content="https://cumuluswebdesign.net/"/>
         <meta property="og:type" content="website"/>
         <meta property="fb:app_id" content="Your-Facebook-App-ID" />
@@ -43,8 +43,8 @@ export default function RootLayout({ children }) {
 
         <link rel="shortcut icon" href="/favicons/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="https://www.cumuluswebdesign.net/favicons/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="https://www.cumuluswebdesign.net/favicons/favicon-16x16.png"/>
       </Head>
 
       <body className={inter.className}>
