@@ -6,7 +6,6 @@ const Navigation = ({ logoColor }) => {
     
     const pathname = usePathname()
 
-  console.log("pathna;me", pathname)
   return (
     <header className="navigation">
       <div className="navigation__top container">
