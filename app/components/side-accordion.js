@@ -16,6 +16,7 @@ const SideAccordion = () => {
             content: [
                 "If your needs do not require frequent updates, the BASIC PLAN is your best option.",
                 "A 3-5 page website is generally around $1300 + a monthly Hosting / Retainer fee.",
+                "A single page website would be signifcantly less of course.",
                 "The Hosting / Retainer fee includes hosting the website for $20 a month and ensures our availability for content updates and further enhancements.",
                 "If you do need to update the copy and images on the website, it is $30 an hour with a 1 hour minimum. Generally all basic updates can be done within 1 hour."
             ]
@@ -26,6 +27,7 @@ const SideAccordion = () => {
                 "If you would like full control over the content of your website and would like to change copy and images whenever you like, the UPDATABLE PLAN is best.",
                 "We would build your site in WordPress, a globally renowned Content Management System (CMS) known for its versatility and ease of use. With WordPress, you'll have access to an intuitive dashboard to update content whenever you want.",
                 "A 3-5 page website is generally around $1300 + a monthly Hosting / Retainer fee.",
+                "A single page website would be signifcantly less.",
                 "The Hosting / Retainer fee includes hosting the website for $30 a month and ensures our availability for any questions regarding the Content Management System."
             ]
         },
