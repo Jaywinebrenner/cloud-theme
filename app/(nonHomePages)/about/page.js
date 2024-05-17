@@ -19,7 +19,7 @@ const About = () => {
 
         <div className='container'>
           <div className='about-wrapper'>
-            <p>Hello, I'm Jay, the founder of Cumulus Web Design, a creative studio nestled in the heart of Portland, Oregon.</p>
+            <p>Hello, I'm Jay, the founder of Cumulus Web Design, a web design studio nestled in the North of Portland, Oregon U.S.A.</p>
 
             <p>At Cumulus Web Design, we specialize in crafting beautiful and performant websites that breathe life into your digital presence.</p>
 
