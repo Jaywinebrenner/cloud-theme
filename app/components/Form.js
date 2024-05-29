@@ -8,22 +8,30 @@ import { sendEmail } from '../utils/send-email';
 const Form = () => {
   const { register, handleSubmit } = useForm();
   const [isLoading, setIsLoading] = useState(false); 
+  const [popupMessage, setPopupMessage] = useState('');
+  const [showPopup, setShowPopup] = useState(false);
 
-
-  console.log("isLoading", isLoading)
   const onSubmit = async (data) => {
-    setIsLoading(true); 
+    setIsLoading(true);
     try {
       await sendEmail(data);
-      console.log('Email sent successfully');
+      setPopupMessage('Email sent successfully! We will be in touch.');
+      setShowPopup(true);
     } catch (error) {
-      console.error('Error sending email:', error);
+      setPopupMessage('Error sending email: ' + error.message);
+      setShowPopup(true);
     } finally {
-      setIsLoading(false); 
+      setIsLoading(false);
     }
   };
 
+  const closePopup = () => {
+    setShowPopup(false);
+  };
+
+
   return (
+    <>
     <form onSubmit={handleSubmit(onSubmit)}>
       <div>
         <label htmlFor='name'>Full Name</label>
@@ -55,6 +63,19 @@ const Form = () => {
         </button>
       </div>
     </form>
+    {showPopup && (
+        <div className="popup-overlay">
+          <div className="popup">
+            <p>{popupMessage}</p>
+            <div className='pop-up-button-wrapper'>
+              <button onClick={closePopup} className="button">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 
