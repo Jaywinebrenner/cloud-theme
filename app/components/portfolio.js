@@ -26,6 +26,16 @@ export default function Portfolio() {
             text: "Web Developer Website",
             url: "https://www.jaywinebrenner.com"
         },
+        {
+            image: "/portfolio/comm-still.png",
+            text: "Record Label",
+            url: "https://www.communityguidelinesrecs.com"
+        },
+        {
+            image: "/portfolio/rose-still.png",
+            text: "Artist",
+            url: "https://www.rosebond.com"
+        },
     ]
 
 
